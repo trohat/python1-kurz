@@ -1,0 +1,62 @@
+1.) (Hodně lehká)
+Vytvořte třídu nápoj.
+Nápoj má dvě vlastnosti, jméno a teplotu.
+Vytvořte několik nápojů, vytiskněte je.
+
+2.) (Lehká)
+To samé jako 2, ale pokud nezadám teplotu, nápoj bude mít
+výchozí teplotu 20 stupňů.
+
+3.) (Lehká až střední)
+Vytvořte třídu kniha. Kniha má několik vlastností:
+Autora, jméno, rok vydání a cenu.
+Zařiďte, aby se kniha dala hezky vytisknout. 
+
+4.) (Středně těžká)
+Vytvořte třídu zmrzlina.
+Zmrzlina má jednu vlastnost, a to je příchuť.
+Vytvořte několik konkrétních instancí s různými příchutěmi
+a vytvořené instance uložte je do listu.
+Nakonec list proiterujte a všechny příchutě vytiskněte.
+[Zmrzlina("jahodova"), Zmrzlina("vanilkova")]
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+1.) Vytvořte třídu KopecekZmrzliny. Kopeček bude mít jednu 
+vlastnost, a to je příchuť. Zařiďte, aby se hezky vypisovala.
+Vytvořte přibližně tři instance (tři kopečky).
+
+Vytvořte třídu ZmrzlinovyPohar.
+Pohár může mít libovolné množství kopečků, při inicializaci
+ale nemá ani jeden.
+Vytvořte uvnitř poháru metodu na přidávání kopečků.
+Vytvořte instanci třídy a několikrát přidejte kopeček.
+Zařiďte, aby se třída ZmrzlinovyPohar hezky vypisovala (včetně všech kopečků).
+
+Vytořte instanci a postupně do ní přidávejte kopečky.
+např: pohar1.pridej_kopecek(kopecek1)
+pohar1.pridej_kopecek(kopecek2)
+pohar1.pridej_kopecek(kopecek3)
+pohar1.pridej_kopecek(kopecek4)
+pohar1.pridej_kopecek(kopecek5)
+print(pohar1)
+
+2.) (Velmi podobné)
+Vytvořte třídu Kniha. Kniha má název, autora a cenu.
+Vytvořte třídu PolickaNaKnihy. Na začátku je prázdná.
+Do poličky můžete přidávat knihy, podobně jako kopečky do poháru.
+Na třídě PolickaNaKnihy vytvořte metodu celkova_cena, která
+spočítá (a vytiskne) celkvoou cenu všech knih v poličce.
+
+3.) (Pokračování ke 2)
+Na třídě PolickaNaKnihy vytvořte metodu mame_knihu, která vrátí True nebo False,
+podle toho, zda se daná kniha v poličce nachází.
+
+4.) (Další pokračování ke 2)
+Ke třídě kniha přidejte vlastnost šířka (knihy).
+Ke třídš PolickaNaKnihy také přidejte vlastnost šířka (poličky).
+Pokaždé, když přidáváte knihu do poličky, zkontrolujte, jestli
+se tam ta kniha vejde. Pokud ne, oznamte to uživateli.
+
+5.) Vymyslete něco dalšího, co by třída PolickaNaKnihy mohla umět.
