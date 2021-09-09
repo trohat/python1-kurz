@@ -10,15 +10,21 @@ kop1 = KopecekZmrzliny("chocolate", 10)
 kop2 = KopecekZmrzliny("vanilla", 2)
 kop3 = KopecekZmrzliny("strawberry", 3)
 
+#LEGB
+#ICPO
+
 class ZmrzlinovyPohar:
     """
     Umí přidávat kopečky metodou pridej_kopecek s jedním parametrem.
     """
+    limit_zmrzlin = 3
+
     def __init__(self):
         self.kopecky = []
 
     def pridej_kopecek(self, kopecek):
-        self.kopecky.append(kopecek)
+        if len(self.kopecky) < self.__class__.limit_zmrzlin:
+            self.kopecky.append(kopecek)
 
     def celkova_cena(self):
         total = 0
@@ -31,6 +37,14 @@ class ZmrzlinovyPohar:
         result += ", ".join(kopecek.flavour for kopecek in self.kopecky).capitalize()
         result += f".\nZaplaťte {self.celkova_cena()} Kč. Dobrou chuť."
         return result
+
+class VelkyPohar:
+    """
+    Umí přidávat kopečky metodou pridej_kopecek s jedním parametrem.
+    """
+    #limit_zmrzlin = 3
+
+
 
 pohar = ZmrzlinovyPohar()
 
