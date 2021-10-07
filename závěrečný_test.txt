@@ -1,0 +1,37 @@
+ÚKOL NA ZÁVĚR KURZU PYTHON / HTML / CSS
+
+
+Část A - Úlohy v Pythonu:
+
+Vyřešte následující úlohy z Advent Of Code.
+https://adventofcode.com/
+
+1.) ročník 2020, úloha 1 - Report Repair
+
+2.) ročník 2019, úloha 1 - The Tyranny of the Rocket Equation
+
+3.) ročník 2020, úloha 3 - Toboggan Trajectory
+
+4.) ročník 2019, úloha 2 - 1202 Program Alarm
+
+pozn.: všechny úlohy mají dvě části, pro splnění je potřeba vyřešit obě
+
+
+Část B - Projekt v Djangu:
+
+Vymyslete si téma projektu, a vytvořte vlastní webové stránky na toto téma.
+
+Projekt bude používat co nejvíc funkcí z Djanga, které jsme se učili (může i něco navíc). Součástí je validní HTML a dle nejnovějších postupů napsané CSS. Stránky jsou samozřejmě responzivní. Projekt je verzovaný a uložený na githubu.
+
+
+
+
+Klasifikace:
+
+1 - Úkol je vypracovaný kompletně, a splňuje požadavky správně napsaného kódu. Sem patří zejména: popisné názvy proměnných, neopakování kódu (DRY), používání funkcí nebo tříd tam, kde je to vhodné a dokumentační řetězce u funkcí, tříd (a případně modulů). Identifikátory (názvy proměnných, tříd apod.) jsou v angličtině. HTML je validní a používá sémantické značky. CSS ani HTML nepoužívají zastaralé postupy a splňují základní nároky na SEO (např. alt atributy u obrázků, floaty nejsou určené na komplexní design a podobně). Projekt má dostatečné množství commitů (každá výrazná změna kódu = jeden commit).
+
+2 - Úkol splňuje většinu z výše uvedeného. V případě hodně hezkého kódu lze odpustit jednu nevyřešenou úlohu z kategorie A.
+
+3 - Vyřešeno vše krom jedné úlohy z kategorie A a projekt se aspoň snaží splňovat většinu požadavků.
+
+4 - Je vyřešena aspoň polovina úloh z kategorie A a projekt vypadá aspoň trochu k světu.
