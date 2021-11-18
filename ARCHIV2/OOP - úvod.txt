@@ -1,0 +1,23 @@
+
+proměnná x atribut, field
+
+
+funkce x metoda
+
+
+instance karel
+instance filip
+instance jana
+instance pavel
+
+třída Clovek
+class Human
+
+třída Zvíře
+instance nosorozec
+
+třída Knihovna
+instance knihovna
+
+
+
