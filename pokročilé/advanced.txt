@@ -1,0 +1,25 @@
+1.) Napište funkci, která funguje stejně jako
+vestavěná funkce Pythonu enumerate
+
+2.) (Pracujte v samostatném adresáři)
+Napiště generátorovou funkci, která projde všechny
+soubory v aktuálním adresáři a z každého vrací postupně řádek po řádku
+(tj. v každé iteraci jeden řádek).
+
+Nápověda:
+Mohla by se vám hodit metoda os.listdir() z modulu os.
+
+Ještě vysvětlení:
+Generátorová funkce je funkce, která používá yield.
+
+3.) (Těžké)
+Pokud si pamatujete, jak se iteruje pomocí třídy 
+(podtržítkové metody __iter__ a __next__),
+přepište úkol 1 pomocí třídy.
+
+4.) Napište funkci, která funguje jako vestavěná funkce range.
+Nápověda: Bude to generátorová funkce.
+
+lambda funkce,
+context management,
+dekorátory
