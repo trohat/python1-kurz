@@ -1,4 +1,3 @@
-Heslo na wifi: itStepPraha12345
 
 
 1. Jak se jmenujete?
